@@ -1,0 +1,26 @@
+MALVA Consulting · OD HR & Business Development
+Sitio web completo (código fuente)
+================================================
+
+Contenido
+---------
+- src/        Código de la página (textos, secciones, estilos y botones de WhatsApp).
+- public/     Ícono de la pestaña del navegador y archivo robots.txt.
+- imagenes/   Copia de todas las fotos e imágenes que usa el sitio
+              (logo, símbolo, firma, retrato, equipo, Ley Silla, liderazgo y NOM-035).
+- package.json y archivos de configuración para poder ejecutar el proyecto.
+
+Importante sobre las imágenes
+-----------------------------
+Dentro del código, las imágenes se cargan desde el servicio de alojamiento de Lovable
+(archivos ".asset.json" en src/assets). Si publicas el sitio en otro lugar, usa los
+archivos de la carpeta "imagenes/" y cambia esas referencias por las imágenes locales.
+
+Cómo ejecutarlo en tu computadora (para personas técnicas)
+-----------------------------------------------------------
+1. Instala Bun (https://bun.sh) o Node.js 20+.
+2. En esta carpeta ejecuta:  bun install
+3. Para verlo:               bun run dev
+4. Para generar la versión final: bun run build
+
+Contacto por WhatsApp configurado: 55 4565 9034 (+52)
